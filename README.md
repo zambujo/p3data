@@ -1,2 +1,3 @@
 # p3data
-clean, tidy p3.snf.ch data
+
+Gather, assess, and clean p3.snf.ch data.
