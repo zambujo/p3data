@@ -1,11 +1,6 @@
 # p3data
 
-Gather, assess, and clean [p3.snf.ch](http://p3.snf.ch) data.  The data and their documentaion are [publicly available](http://p3.snf.ch/Pages/DataAndDocumentation.aspx).
+The Swiss National Science Foundation (SNSF), the leading public science funding agency in Switzerland, provides public data sets containing information on each grant and grantee.  
 
-
-## Files
-
- - `exploration_template.ipynb` for visual exploratory analyses
-
- - `slide_deck_template.ipynb` slide deck sharing a visual story
+The data sets contain high-quality data.  The data and a corresponding data dictionary explaining the variables in the data sets are found [here](http://p3.snf.ch/Pages/DataAndDocumentation.aspx).
 
