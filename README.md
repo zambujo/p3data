@@ -1,11 +1,4 @@
-# P3_data
+# Data Analysis of Science Funding Data
 
-The Swiss National Science Foundation (SNSF), the leading public science funding agency in Switzerland, provides public data sets containing information on each grant and grantee.  
-
-The data sets contain high-quality data.  The data and corresponding data dictionary explaining the variables are found [here](http://p3.snf.ch/Pages/DataAndDocumentation.aspx).
-
-Here you find an analysis of part of these data in the following 3 notebooks:
-
- - [Data cleaning](./cleaning.ipynb) 
- - [Data exploration](./exploration.ipynb) 
- - [Insights](./slide_deck.ipynb) 
+The Swiss National Science Foundation (SNSF), the leading public science funding agency in Switzerland, makes its data about the projects, people, and publications [freely availabe online](http://p3.snf.ch/Pages/DataAndDocumentation.aspx).  
+This repo illustrates how Jupyter Notebooks can be used to [clean](./cleaning.ipynb), [explore](./exploration.ipynb), and [explain](./slide_deck.ipynb) parts of these data.
