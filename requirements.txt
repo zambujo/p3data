@@ -1,94 +1,73 @@
-appnope==0.1.0
-argon2-cffi @ file:///Users/runner/miniforge3/conda-bld/argon2-cffi_1596629858645/work
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1597959372343/work
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-backports.functools-lru-cache==1.6.1
-beautifulsoup4==4.9.1
-bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
-blinker==1.4
-brotlipy==0.7.0
+appnope==0.1.0; sys_platform == "darwin" or platform_system == "Darwin" or python_version >= "3.3" and sys_platform == "darwin"
+argon2-cffi==20.1.0
+async-generator==1.10
+attrs==20.2.0
+backcall==0.2.0
+bleach==3.2.1
 certifi==2020.6.20
-cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1595805531819/work
+cffi==1.14.3
 chardet==3.0.4
-click==7.1.2
-cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1595348779745/work
+colorama==0.4.3; python_version >= "3.3" and sys_platform == "win32" or sys_platform == "win32"
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
-descartes==1.1.0
 entrypoints==0.3
-feather-format @ file:///home/conda/feedstock_root/build_artifacts/feather-format_1588949071708/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
-importlib-metadata @ file:///Users/runner/miniforge3/conda-bld/importlib-metadata_1593211382425/work
-ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1595446887114/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1596287190072/work
+feather-format==0.4.1
+idna==2.10
+ipykernel==5.3.4
+ipython==7.18.1
 ipython-genutils==0.2.0
-jedi==0.15.2
-Jinja2==2.11.2
-joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
-json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1591810480056/work
+ipywidgets==7.5.1
+jedi==0.17.2
+jinja2==2.11.2
 jsonschema==3.2.0
-jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1594732094290/work
+jupyter==1.0.0
+jupyter-client==6.1.7
+jupyter-console==6.2.0
 jupyter-core==4.6.3
-jupyterlab==2.2.5
-jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1593951277307/work
+jupyterlab-pygments==0.1.2
 kiwisolver==1.2.0
-MarkupSafe==1.1.1
-matplotlib @ file:///opt/concourse/worker/volumes/live/24f995ab-f0a7-4bf7-4b0e-ea68b1f7e8f7/volume/matplotlib-base_1597876350104/work
+markupsafe==1.1.1
+matplotlib==3.3.2
 mistune==0.8.4
-mizani==0.7.1
-mkl-fft==1.1.0
-mkl-random==1.1.1
-mkl-service==2.3.0
-nbconvert==5.6.1
-nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
-notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1597285253098/work
-numpy @ file:///opt/concourse/worker/volumes/live/c646f6b9-b398-438d-7dc7-c7142e0ba44b/volume/numpy_and_numpy_base_1596235504536/work
-oauthlib==3.0.1
-olefile==0.46
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
-palettable==3.3.0
-pandas @ file:///opt/concourse/worker/volumes/live/82e0110d-95be-469e-5620-4dcd6daa370b/volume/pandas_1596829976297/work
+nbclient==0.5.0
+nbconvert==6.0.6
+nbformat==5.0.7
+nest-asyncio==1.4.1
+notebook==6.1.4
+numpy==1.19.2
+packaging==20.4
+pandas==1.1.2
 pandocfilters==1.4.2
-parso==0.5.2
-patsy==0.5.1
-pexpect==4.8.0
+parso==0.7.1
+pexpect==4.8.0; python_version >= "3.3" and sys_platform != "win32" or sys_platform != "win32"
 pickleshare==0.7.5
-Pillow @ file:///opt/concourse/worker/volumes/live/be1e8a56-c4be-4ffe-4fa7-5a0e9c460b1a/volume/pillow_1594307312933/work
-plotnine @ file:///home/conda/feedstock_root/build_artifacts/plotnine_1596743375470/work
-prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
-prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1597061474901/work
-ptyprocess==0.6.0
+pillow==7.2.0
+prometheus-client==0.8.0
+prompt-toolkit==3.0.7
+ptyprocess==0.6.0; python_version >= "3.3" and sys_platform != "win32" or sys_platform != "win32" or os_name != "nt" or python_version >= "3.3" and sys_platform != "win32" and (python_version >= "3.3" and sys_platform != "win32" or sys_platform != "win32")
 pyarrow==1.0.1
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-Pygments==2.6.1
-PyJWT==1.7.1
-pyOpenSSL==19.1.0
+pycparser==2.20
+pygments==2.7.1
 pyparsing==2.4.7
-pyrsistent==0.16.0
-PySocks==1.7.1
+pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2020.1
+pywin32==228; sys_platform == "win32"
+pywinpty==0.5.7; os_name == "nt"
 pyzmq==19.0.2
-regex @ file:///opt/concourse/worker/volumes/live/cba3b336-098a-44e5-4877-7dbac801480f/volume/regex_1596829719230/work
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
-requests-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/requests-oauthlib_1595492159598/work
-scikit-learn @ file:///opt/concourse/worker/volumes/live/111833a2-339b-4578-413b-7337bb8fe64a/volume/scikit-learn_1598376920601/work
-scipy @ file:///opt/concourse/worker/volumes/live/7f5e51f8-abf3-4409-4c56-a4fb14cc9869/volume/scipy_1593104185999/work
-seaborn==0.10.1
-Send2Trash==1.5.0
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
-soupsieve==2.0.1
-statsmodels @ file:///Users/runner/miniforge3/conda-bld/statsmodels_1598551437387/work
-terminado==0.8.3
+qtconsole==4.7.7
+qtpy==1.9.0
+requests==2.24.0
+scipy==1.5.2
+seaborn==0.11.0
+send2trash==1.5.0
+six==1.15.0
+terminado==0.9.1
 testpath==0.4.4
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 tornado==6.0.4
-tqdm @ file:///tmp/build/80754af9/tqdm_1596810128862/work
-traitlets==4.3.3
-tweepy @ file:///home/conda/feedstock_root/build_artifacts/tweepy_1594498408379/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1595434816409/work
-wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1595859607677/work
+traitlets==5.0.4
+urllib3==1.25.10
+wcwidth==0.2.5
 webencodings==0.5.1
-zipp==3.1.0
+widgetsnbextension==3.5.1

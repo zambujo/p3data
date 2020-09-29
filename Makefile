@@ -1,14 +1,6 @@
-all: slides preprocess explore
+all: slides
 .PHONY: all 
 slides:
-	jupyter nbconvert slide_deck.ipynb --to slides
-	mv slide_deck.slides.html docs/index.html
-
-preprocess:
-	jupyter nbconvert cleaning.ipynb --to html
-	mv cleaning.html docs/
-
-explore:
-	jupyter nbconvert exploration.ipynb --to html
-	mv exploration.html docs/
+	poetry run jupyter nbconvert notebooks/slide_deck.ipynb --to slides
+	mv notebooks/slide_deck.slides.html docs/index.html
 
