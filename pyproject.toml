@@ -5,6 +5,7 @@ description = "Cleaning, exploring, and explaining SNSF public data with the PyD
 license = "MIT"
 homepage = "https://github.com/zambujo/p3data"
 repository = "https://github.com/zambujo/p3data"
+keywords = ["cleaning-data", "switzerland", "open-datasets"]
 authors = ["Martins <joao.martins@gmx.net>"]
 
 [tool.poetry.dependencies]
