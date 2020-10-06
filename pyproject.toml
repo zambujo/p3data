@@ -19,9 +19,13 @@ feather-format = "^0.4.1"
 SQLAlchemy = "^1.3.19"
 jupyterlab = "^2.2.8"
 jupyterlab-git = "^0.22.0"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+p3data = "p3data.downloader:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
