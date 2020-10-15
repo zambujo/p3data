@@ -19,6 +19,6 @@ Distributed under the MIT License.
 ## Acknowledgments
 
  - [Poetry](https://python-poetry.org)
- - [dbdiagram.io](https://dbdiagram.io)
  - [Inkscape](https://inkscape.org)
- - [Gitmoji](https://gitmoji.carloscuesta.me)
+ - [dbdiagram.io](https://dbdiagram.io)
+ - [gitmoji](https://gitmoji.carloscuesta.me)
