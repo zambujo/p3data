@@ -10,15 +10,15 @@ This repository illustrates how Jupyter Notebooks can be used to [clean](./noteb
 
 ## Installation
 
-Install [poetry](https://python-poetry.org/docs/#installation), run `poetry install` to install the dependencies, and then `make all` to run the analysis. Alternatively, you can use the `requirements.txt` file.
+Install [poetry](https://python-poetry.org/docs/#installation), run `poetry install` to install the dependencies, followed by `poetry shell` to enter poetry's Python environment, and finally `make all` to run the analysis. Alternatively, you can use the `requirements.txt` file.
 
-## License 
+## License
 
 Distributed under the MIT License.
 
 ## Acknowledgments
 
- - [Poetry](https://python-poetry.org)
- - [Inkscape](https://inkscape.org)
- - [dbdiagram.io](https://dbdiagram.io)
- - [gitmoji](https://gitmoji.carloscuesta.me)
+- [Poetry](https://python-poetry.org)
+- [Inkscape](https://inkscape.org)
+- [dbdiagram.io](https://dbdiagram.io)
+- [gitmoji](https://gitmoji.carloscuesta.me)
