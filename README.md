@@ -1,4 +1,4 @@
-# Data Analysis of Swiss Science Funding Data
+# Analysis of Swiss Science Funding Public Data
 
 ## About
 
